@@ -474,7 +474,7 @@ signed main() {
 1. 若 $x<l$。无法操作，$sg(x)=0$；
 2. 若 $l\le x < 2l$。转移后的范围 $[0,x-l]$，而 $x-l<l$，也就是说一定会转移到情形 $1$。所以 $sg(x)=1$；
 3. 若 $2l\le x < 3l$。转移后的范围 $[0,x-l]$，而 $x-l<2l$，也就是说一定会转移到情形 $1$ 或情形 $2$。所以 $sg(x)=2$；
-4. 同理，若 $k\cdot l\le x<(k+1)\cdot l$，转移后的范围 $[0,x-l]$，而 $x-l<k\cdot l$，也就是说一定会转移到情形 $1,2,...,k$，所 $sg(x)=k=\left\lfloor \dfrac{x}{l} \right\rfloor$。
+4. 同理，若 $k\cdot l\le x<(k+1)\cdot l$，转移后的范围 $[0,x-l]$，而 $x-l < k \cdot l$，也就是说一定会转移到情形 $1,2,...,k$，所 $sg(x)=k=\left\lfloor \dfrac{x}{l} \right\rfloor$。
 
 下面考虑 $l+r \le x <2(l+r)$ 的情况。
 
